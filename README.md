@@ -44,26 +44,47 @@ There are four types of influenza viruses: A, B, C and D. Human influenza A and 
 ---
 ### 2.Data Understanding
 `respondent_id` - Unique and random identifier
+
 `h1n1_concern` - level of concern about the H1N1 flu.(0 = Not at all concerned; 1 = Not very concerned; 2 = Somewhat concerned; 3 = Very concerned.)
+
 `h1n1_knowledge` - Level of knowledge about H1N1 flu.(0 = No knowledge; 1 = A little knowledge; 2 = A lot of knowledge.)
+
 `behvioural_antiviral_meds` - Has taken antiviral medications. (binary)
+
 `bevioral_avoidance` - as avoided close contact with others with flu-like symptoms. (binary)
+
 `behavioral_face_mask` - Has bought a face mask. (binary)
+
 `behavioral_wash_hands` - Has frequently washed hands or used hand sanitizer. (binary)
+
 `behavioral_large_gatherings` - Has reduced time at large gatherings. (binary)
+
 `behavioral_touch_face` - Has avoided touching eyes, nose, or mouth. (binary)
+
 `doctor_recc_h1n1` - H1N1 flu vaccine was recommended by doctor. (binary)
+
 `doctor_recc_seasonal` - Seasonal flu vaccine was recommended by doctor. (binary)
+
 `chronic_med_condition` - Has any of the following chronic medical conditions: asthma or an other lung condition, diabetes, a heart condition, a kidney condition, sickle cell anemia or other anemia, a neurological or neuromuscular condition, a liver condition, or a weakened immune system caused by a chronic illness or by medicines taken for a chronic illness. (binary)
+
 `child_under_6_months` - Has regular close contact with a child under the age of six months. (binary)
+
 `health_worker` - Is a healthcare worker. (binary)
+
 `health_insurance` - Has health insurance. (binary)
+
 `opinion_h1n1_vacc_effective` - Respondent's opinion about H1N1 vaccine effectiveness.(1 = Not at all effective; 2 = Not very effective; 3 = Don't know; 4 = Somewhat effective; 5 = Very effective.)
+
 `opinion_h1n1_risk` - Respondent's opinion about risk of getting sick with H1N1 flu without vaccine.(1 = Very Low; 2 = Somewhat low; 3 = Don't know; 4 = Somewhat high; 5 = Very high.)
+
 `opinion_h1n1_sick_from_vacc` - Respondent's worry of getting sick from taking H1N1 vaccine.(1 = Not at all worried; 2 = Not very worried; 3 = Don't know; 4 = Somewhat worried; 5 = Very worried.)
+
 `opinion_seas_vacc_effective` - Respondent's opinion about seasonal flu vaccine effectiveness.(1 = Not at all effective; 2 = Not very effective; 3 = Don't know; 4 = Somewhat effective; 5 = Very effective.)
+
 `opinion_seas_risk` - Respondent's opinion about risk of getting sick with seasonal flu without vaccine.(1 = Very Low; 2 = Somewhat low; 3 = Don't know; 4 = Somewhat high; 5 = Very high.)
+
 `opinion_seas_sick_from_vacc` - Respondent's worry of getting sick from taking seasonal flu vaccine.(1 = Not at all worried; 2 = Not very worried; 3 = Don't know; 4 = Somewhat worried; 5 = Very worried.)
+
 `age_group` - Age group of respondent.
 ---
 ### Data Preparation
